@@ -1,0 +1,123 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 4px solid #244b80;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #244b80;
+    margin: 12px;
+}
+
+nav a:hover {
+    color: #e64b32;
+}
+
+main {
+    padding: 12px;
+    margin-top: 30px;
+}
+
+h3 {
+    border-bottom: 2px solid #244b80;
+    padding-bottom: 5px;
+}
+
+.welcome p:first-child::first-letter {
+    color: #159c91;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.float-box {
+    float: right;
+    width: 30%;
+    margin-left: 15px;
+}
+
+.float-box img{
+    width: 35%;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    position: relative;
+    border: 2px solid #444;
+    padding: 10px;
+    width: 30%;
+    background: #fafafa;
+    font-size: 12px;
+}
+
+.card.blue {
+    border-color: #24538b;
+}
+
+.card h4 {
+    color: #24538b;
+    margin-bottom: 5px;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+.new, .hot {
+    position: absolute;
+    top: -7px;
+    right: -2px;
+    color: white;
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 10px;
+}
+
+.new {
+    background: #e64b32;
+}
+
+.hot {
+    background: #2ca45a;
+}
+
+a {
+    color: #243f9b;
+}
+
+button {
+    background: #2ca45a;
+    color: white;
+    border: none;
+    padding: 9px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #18783c;
+}
+
+.faded {
+    opacity: 0.35;
+}
