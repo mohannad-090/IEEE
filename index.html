@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Lab Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Basics</a>
+            <a href="#">Layout</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h3>⭐ Welcome</h3>
+
+            <div class="float-box"><img src="images/CSS.png" alt=""></div>
+            
+            <div class="welcome">
+                <p>
+                    Learn how the box model, selectors, float and position
+                    work together to build a real page. This example shows
+                    the main CSS topics in one layout.
+                </p>
+
+                <p>
+                    Each card below uses padding, border and margin.
+                    The first card has a blue border because it matches
+                    a more specific selector.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h3>⭐ Topics</h3>
+
+            <div class="cards">
+                <div class="card blue">
+                    <span class="new">NEW</span>
+                    <h4>Selectors</h4>
+                    <p>Element, class, ID and child selectors pick the parts you want to style.</p>
+                </div>
+
+                <div class="card">
+                    <span class="hot">HOT</span>
+                    <h4>Box Model</h4>
+                    <p>Content, padding, border and margin make every element a box.</p>
+                </div>
+
+                <div class="card">
+                    <h4>Position</h4>
+                    <p>Relative, absolute, fixed and sticky control where an element sits.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>⭐ Actions</h3>
+
+            <p>
+                Read more about
+                <a href="#">pseudo-classes →</a>
+                and
+                <a href="#">pseudo-elements →</a>.
+            </p>
+
+            <button>Start Learning</button>
+
+            <p class="faded">
+                This paragraph is faded with opacity: 0.35 but still takes space.
+            </p>
+        </section>
+
+    </main>
+
+</body>
+</html>
